@@ -1,13 +1,19 @@
-function sum(num1,num2,num3){
-    if(num3){
-        const result = 0;
-       
-        console.log('line 9', result);
+function discountPrices(prices, discount){
+    const discounted = [1,2,3];
+    const length = prices.length;
+    
 
+    for(let i=0; i< prices.length; i++){
+        const discountPrice = prices[i]* (1- discount);
+        discounted.push(discountPrice);
     }
-    else return;
-    console.log('line 13', result);
 
+
+
+    return discounted;
+
+
+    
 }
 
-sum(1,10,true);
+discountPrices([100, 200, 300], 0.5);
