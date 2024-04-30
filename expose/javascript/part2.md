@@ -12,6 +12,14 @@
 11- it will return nothing since the discounted array is empty, and it constnt so even when we push something it will not change its value. 
 
 
+12- 
+A. console.log(student.name);
+B. console.log(student['Grad Year']);
+C.
+D.
+E.
+
+
 
 
 
