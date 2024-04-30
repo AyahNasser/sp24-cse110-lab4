@@ -9,8 +9,19 @@ let statistics ={
 };
 
 
-const obj = { a: 1, b: 2, c: 3 };
 
-for (let y in statistics) {
-  console.log(`statistics.${y} = ${statistics[y]}`);
+
+for (var y in statistics) {
+  
+
+
+  if(y[0]== 'r'){
+    console.log(statistics[y]);
+  }
+  else if(statistics[y]%2!=0){
+    console.log(statistics[y]);
+  }
+
+  
+
 }
