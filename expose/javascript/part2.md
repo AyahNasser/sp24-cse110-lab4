@@ -33,11 +33,12 @@ H.NaN, JS converted 3 to a number but could not subtract undefined from it since
 14- 
 A. true, JS compares the two strings here 2 and 1. Which is true the string 2 is larger than string 1 
 B. false, JS compares the two strings here 2 and 12. Which is false the string 2 is not smaller than string 1
-C. true, 
-D. false, 
-E. false, 
-F. true,
+C. true, JS converts the '2' to its number then it compares the 2 with the 2 which is true they are equal to each other.
+D. false, false because here JS checks for the type and the value and here they are not the same type one is an integer and the other is string, so false. 
+E. false, trie is conevrted to 1 then compared to the integer 2, so false they are not equal to each other. 
+F. true, the boolean part converts the value 2 to true then it is compared to true so final outout it is true. 
 
+15- (===) as mentioned before compare the data type and the value of the operands, while the (==) apply the type conversion before it compares the operands.
 
 
 
