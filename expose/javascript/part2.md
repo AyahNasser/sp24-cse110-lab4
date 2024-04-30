@@ -42,5 +42,11 @@ F. true, the boolean part converts the value 2 to true then it is compared to tr
 
 
 
+17- The result will be the newArr computed that has the following integers [2,4,6]. We start by passing the array [1,2,3] and the doSomething function to the modifyArray function. Starting with initializing a new array in modifyArray function called NewArr. Then we go through a for loop that will take each element in the array we passed earlier and pass it to the doSomething function and it will multiply the element passed by 2. Finally, we end up with the following newArr = [2,4,6].
+
+
+19- Output is 1,4,3,2
+
+
 
 Double check 4,8, and 11
