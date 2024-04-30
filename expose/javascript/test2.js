@@ -13,4 +13,4 @@ var student = {
 
 };
 
-console.log(student.greeting);
+console.log(student.courseLoad[0]);
